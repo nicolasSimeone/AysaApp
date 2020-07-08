@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">PPEMobile</string>
+  <string name="app_bartitle">AYSA PPE</string>
+  <string name="user">Usuario</string>
+  <string name="password">Contraseña</string>
+  <string name="user_hint">Ingrese su usuario</string>
+  <string name="password_hint">Ingrese su contraseña</string>
+  <string name="app_title">Plan de Prevención y Emergencia</string>
+
+  <string name="shortdial_tab_label">Short dial</string>
+  <string name="events_tab_label">Eventos</string>
+  <string name="documents_tab_label">Documentos</string>
+
+  <string name="addevent_title">Crear Evento</string>
+  <string name="editevent_title">Editar Evento</string>
+  
+  <string name="unexpected_error">Ocurrio un error inesperado</string>
+
+  <string name="information">Información</string>
+  <string name="observations">Observaciones</string>
+  <string name="clasificacion">Clasificación</string>
+  <string name="observaciones">Observaciones</string>
+  <string name="event_title">Título</string>
+  <string name="event_date">Fecha ocurrencia</string>
+  <string name="event_place">Lugar</string>
+  <string name="event_type">Tipo</string>
+  <string name="event_sector">Sector</string>
+  <string name="event_detail">Detalle</string>
+  <string name="event_tags">Etiquetas</string>
+  <string name="event_referencia">Referencia Evento</string>
+  <string name="event_general">General</string>
+  <string name="event_type_prompt">Tipo Evento</string>
+  <string name="event_sector_prompt">Sector</string>
+  <string name="event_filter">Filtrar Resultado</string>
+  <string name="files">Archivos</string>
+  <string name="upload_files">Subir archivos</string>
+  <string name="author">Autor</string>
+  <string name="add_feature_title">Crear Novedad</string>
+  
+</resources>

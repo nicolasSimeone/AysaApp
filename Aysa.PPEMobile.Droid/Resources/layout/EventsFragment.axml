@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/form_bg_grey">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true"
+                android:gravity="top"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <EditText
+                    android:id="@+id/editTextSearchEvent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/rounded_edittext"
+                    android:drawableLeft="@drawable/ic_search"
+                    android:drawablePadding="6dp"
+                    android:hint="Buscar.."
+                    android:imeOptions="actionDone"
+                    android:autoText="true"
+                    android:inputType="text|textCapSentences|textAutoCorrect|textFilter"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/EventsRecyclerView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingTop="20dp"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+        </RelativeLayout>
+        <android.support.design.widget.FloatingActionButton xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/floatingActionButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="30dp"
+            android:src="@drawable/ic_add"
+            android:tint="@android:color/white"
+            app:backgroundTint="@color/colorPrimary"
+            android:visibility="gone" />
+    </android.support.design.widget.CoordinatorLayout>
+    <include
+        layout="@layout/progressoverlay" />
+</FrameLayout>

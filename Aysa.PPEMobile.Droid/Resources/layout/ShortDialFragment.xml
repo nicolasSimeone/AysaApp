@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:gravity="top"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_weight="0"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="6dp"
+            android:hint="Buscar.."
+            android:imeOptions="actionDone"
+            android:autoText="true"
+            android:inputType="text|textMultiLine|textCapSentences|textAutoCorrect|textFilter"
+            android:paddingLeft="10dp"
+            android:singleLine="true" />
+        <ExpandableListView
+            android:id="@+id/recyclerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="20dp"
+            android:scrollbars="vertical"
+            android:groupIndicator="@android:color/transparent"
+            android:divider="#f9f9f9" 
+            android:dividerHeight="15dp" 
+            android:childDivider="#ffff"/>
+    </LinearLayout>
+</FrameLayout>
